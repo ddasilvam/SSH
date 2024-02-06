@@ -4,7 +4,7 @@ Para generar un par de claves público-privada, desde el cliente usamos el coman
 ```console
 ssh-keygen
 ```
-Cuando se nos pida establecer una “passphrase” la dejaremos en blanco, de esta forma no se nos pedirá ninguna contraseña cuando iniciemos sesión usando estas claves.
+Cuando se nos pida establecer una “passphrase” la dejaremos en blanco, de esta forma no se nos pedirá ninguna contraseña cuando iniciemos sesión usando estas claves. Por defecto se guardarán en el directorio ".ssh" de la carpeta personal.
 
 ## Carga de clave pública al lado servidor
 Ahora neceitamos establecer el "candado" del lado del servidor al que nos queremos conectar. Para esto, subiremos la clave pública al servidor utilizando el comando:
